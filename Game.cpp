@@ -46,7 +46,7 @@ void Game::Initialize(HWND window, int width, int height)
 	m_spriteFont = std::make_unique<SpriteFont>(m_d3dDevice.Get()
 		, L"Resources/myfile.spritefont");
 
-	m_count = 0;
+	//m_count = 0;
 
 	// ƒŠƒ\[ƒXî•ñ
 	ComPtr<ID3D11Resource> resource;
